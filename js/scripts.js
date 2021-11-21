@@ -15,6 +15,5 @@
  });
 menuButton.addEventListener("click", () => {
     console.log("Кликнули по меню")
-    menu.style.display = "block"; 
     menu.classList.toggle("is-open");
 })

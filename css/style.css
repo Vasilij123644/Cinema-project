@@ -1,18 +1,15 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: #621402;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
-
 .container {
     max-width: 1170px;
     margin: auto;
 }
-
 .header {
     padding: 60px;
     background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url('../img/bg.jpg') no-repeat center top / cover;
@@ -20,13 +17,14 @@ body {
 .m-menu {
     display: none;
 }
-
+.is-open {
+    display: block !important;
+}
 .navbar {
     display: flex;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 .nav {
     position: relative;
@@ -246,6 +244,7 @@ body {
     padding: 24px 52px;
     text-decoration: none;
 }
+
 @media (max-width: 1200px ) {
     .container {
         max-width: 960px;
